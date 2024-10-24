@@ -1,0 +1,44 @@
+"""
+A YouTube video downloader using yt-dlp and aiohttp.
+
+This script will download a YouTube video or multiple videos in a single run.
+It supports both video and audio downloads.
+
+For video downloads, it will download the best available video quality.
+For audio downloads, it will download the best available audio quality.
+
+It will use aiohttp to download the video/audio in chunks concurrently.
+The chunks will be downloaded using ThreadPoolExecutor to utilize multiple cores.
+
+The script will also handle errors and will not stop if a video/audio download fails.
+It will print an error message and continue to the next video/audio.
+
+The script will also print the total time taken to download all the videos/audio.
+
+Example usage:
+    python3 main.py
+"""
+
+
+Tài liệu tiếng Việt:
+
+"""
+Tải video YouTube bằng yt-dlp và aiohttp.
+
+Script này sẽ tải video YouTube hoặc nhiều video cùng lúc.
+Nó hỗ trợ tải video và audio.
+
+Đối với tải video, nó sẽ tải video có chất lượng tốt nhất.
+Đối với tải audio, nó sẽ tải audio có chất lượng tốt nhất.
+
+Nó sẽ sử dụng aiohttp để tải video/audio thành các phần nhỏ đồng thời.
+Các phần nhỏ sẽ được tải bằng ThreadPoolExecutor để tận dụng nhiều lõi CPU.
+
+Script sẽ cũng xử lý lỗi và sẽ không dừng lại nếu tải video/audio thất bại.
+Nó sẽ in ra thông báo lỗi và tiếp tục tải video/audio tiếp theo.
+
+Script sẽ cũng in ra thời gian tải tất cả video/audio.
+
+Ví dụ sử dụng:
+    python3 main.py
+"""
